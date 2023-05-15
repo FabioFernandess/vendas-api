@@ -7,5 +7,6 @@ CREATE TABLE IF NOT EXISTS `produto` (
   `descricao` varchar(255) NOT NULL,
   `preco` decimal(16,2) NOT NULL,
   `sku` varchar(20) NOT NULL,
+  `data_cadastro` date NOT NULL,
   PRIMARY KEY (`id`)
-);
+) ;
