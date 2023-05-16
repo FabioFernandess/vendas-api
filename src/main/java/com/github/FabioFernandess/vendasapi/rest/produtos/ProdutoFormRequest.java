@@ -12,7 +12,7 @@ public class ProdutoFormRequest {
 	private BigDecimal preco;
 	private String sku;
 	private String descricao;
-	
+
 	@JsonFormat(pattern = "dd/MM/yyyy")
 	private LocalDate cadastro;
 
